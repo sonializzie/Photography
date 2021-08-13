@@ -4,6 +4,5 @@ function homePage() {
 }
 
 function mainPage() {
-  window.location =
-    "https://soniandongaphotography.netlify.app/Photography/index.html";
+  window.location = "https://soniandongaphotography.netlify.app";
 }
