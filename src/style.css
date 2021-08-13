@@ -160,6 +160,12 @@ body {
 @media screen and (max-width: 1000px) {
 }
 
+/*Instagram Section*/
+.instafeed-container {
+  display: block;
+  margin: 0 auto;
+}
+
 /*Footer Background*/
 .bg-footer {
   background-color: #34495e;
