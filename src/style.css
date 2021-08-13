@@ -187,6 +187,7 @@ body {
   color: #545454;
   text-align: center;
   font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
   font-size: 40px;
   padding-top: 240px;
   margin-right: 20px;
