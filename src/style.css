@@ -12,6 +12,10 @@ body {
   min-width: xxpx;
 }
 
+.clear {
+  clear: both;
+}
+
 .body-info {
   background-color: #34495e;
 }
