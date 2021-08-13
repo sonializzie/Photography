@@ -312,3 +312,12 @@ body {
 :hover.sonia-photo-text-link {
   color: #fff;
 }
+
+.coming-soon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #545454;
+  font-size: 40px;
+}
