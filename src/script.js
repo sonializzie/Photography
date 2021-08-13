@@ -1,8 +1,7 @@
 function homePage() {
-  window.location =
-    "https://soniandongaphotography.netlify.app/Photography/homepage.html";
+  window.location.href = "/Photography/homepage.html";
 }
 
 function mainPage() {
-  window.location = "https://soniandongaphotography.netlify.app";
+  window.location.href = "https://soniandongaphotography.netlify.app";
 }
