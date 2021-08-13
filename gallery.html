@@ -93,19 +93,19 @@
 
     <!--Opening Div section for the instagram feed container-->
 
-    <div id="instafeed-container">
-      <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-      <script type="text/javascript">
-        var userFeed = new Instafeed({
-          get: "user",
-          target: "instafeed-container",
-          resolution: "low_resolution",
-          accessToken:
-            "IGQVJXVkhRVEdNVzBsUU9mdWxwc2lsT1gzdkVIb3NDR2I0SS14b0c0TDRQUWxOTTlsUV9oR0l4aDVqUzZANTDZAXRXA0WVhTMU5PUUhZANjBfd1dDWFNJT3hrOUhvRUdqMXZAMM0JYR3hFd24zY2lFek9seQZDZD",
-        });
-        userFeed.run();
-      </script>
-    </div>
+    <div id="instafeed-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript">
+      var userFeed = new Instafeed({
+        get: "user",
+        target: "instafeed-container",
+        resolution: "low_resolution",
+        accessToken:
+          "IGQVJXVkhRVEdNVzBsUU9mdWxwc2lsT1gzdkVIb3NDR2I0SS14b0c0TDRQUWxOTTlsUV9oR0l4aDVqUzZANTDZAXRXA0WVhTMU5PUUhZANjBfd1dDWFNJT3hrOUhvRUdqMXZAMM0JYR3hFd24zY2lFek9seQZDZD",
+      });
+      userFeed.run();
+    </script>
     <!--Closing Div section for the instagram feed container-->
 
     <!-- Footer -->
