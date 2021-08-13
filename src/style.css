@@ -30,6 +30,10 @@ body {
   background-color: #34495e;
 }
 
+.gallery-bg {
+  background-color: #fff;
+}
+
 .clear {
   clear: both;
 }
