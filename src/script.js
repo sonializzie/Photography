@@ -1,5 +1,5 @@
 function homePage() {
-  window.location.href = "/Photography/homepage.html";
+  window.location.href = "homepage.html";
 }
 
 function mainPage() {
