@@ -168,6 +168,12 @@ body {
 @media screen and (max-width: 1000px) {
 }
 
+.gallery-title {
+  display: block;
+  margin: 0 auto;
+  color: #545454;
+}
+
 /*Instagram Section*/
 .instafeed-container {
   display: block;
