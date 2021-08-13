@@ -1,7 +1,7 @@
 function homePage() {
-  window.location = "/Photography/homepage.html";
+  window.location = "file:///Photography/homepage.html";
 }
 
 function mainPage() {
-  window.location = "/Photography/index.html";
+  window.location = "file:///Photography/index.html";
 }
