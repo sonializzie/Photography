@@ -17,18 +17,34 @@ body {
 }
 
 .homepage-bg {
-  background-color: #34495e;
+  background-color: #545454;
+}
+
+.bg-image {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/tree-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 /* .bg-image {
-  background-image: url(../images/Clouds-Image.jpg);
-  background-position: center;
-  background-size: cover;
+  background-color: #545454;
 } */
-
-.bg-image {
-  background-color: #34495e;
-}
 
 .gallery-bg {
   background-color: #fff;
@@ -204,9 +220,85 @@ body {
   padding-bottom: 120px;
 }
 
+/*ABOUT ME SECTION*/
+.about-me-info {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.about-box {
+  padding: 60px;
+}
+
+.about-me {
+  padding-top: 300px;
+}
+
+.bullet-point {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+}
+
+.about-sonia {
+  font-family: "Quicksand", sans-serif;
+  display: block;
+  margin: 0 auto;
+  text-align: start;
+  font-size: 40px;
+  color: #545454;
+  text-transform: uppercase;
+}
+
+.about-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: start;
+  color: #545454;
+}
+
+.read-more-link {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #545454;
+}
+
+:hover.read-more-link {
+  color: #000000;
+}
+
+.sonia-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 8px;
+  vertical-align: middle;
+  position: relative;
+  width: 80%;
+  object-fit: cover;
+}
+
+.sonia-img-1 {
+  background-color: #545454;
+  display: block;
+  margin: 0 auto;
+  margin-top: -552px;
+  margin-right: 40px;
+  vertical-align: middle;
+  width: 500px;
+  right: 680px;
+  height: 620px;
+}
+
+/*END OF ABOUT ME SECTION*/
+
 /*Footer Background*/
 .bg-footer {
-  background-color: #34495e;
+  background-color: #545454;
   color: #ffffff; /*Font text*/
 }
 
