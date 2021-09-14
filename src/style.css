@@ -420,3 +420,38 @@ body {
   color: #545454;
   font-size: 40px;
 }
+
+.contact-form {
+  display: block;
+  margin: 0 auto;
+  padding-top: 300px;
+}
+
+.form-outline {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-contact {
+  background-color: #545454;
+  width: 30%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+:hover.button-contact {
+  background-color: #34495e;
+}
+
+.check-form {
+  display: block;
+  margin-right: 340px;
+}
+
+.check-contact-info {
+  display: block;
+  margin: 0 auto;
+  text-align: start;
+}
